@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='Tools/normalize.css' rel='stylesheet'/>
+        <link href='Tools/unsemantic-grid-responsive.css' rel='stylesheet'/>
+        <link href='Tools/font-awesome-4.6.1/css/font-awesome.min.css' rel='stylesheet'/>
+        <link href='style.css' rel='stylesheet'/>
+    </head>
+    <body class='grid-container'>
+        <div id='loading-page'>
+            <h1>Homes for Rent</h1>
+        </div>
+        <div id='logo'>
+            <p>Homes for Rent</p>
+        </div>
+        <div class='main-slides mobile-grid-70 grid-70'>
+        </div>
+        <div id='projects'>
+            <div id='pro-1'>
+                <img src='Images/chair.jpg'/>
+                <p id='txt-1' class='hover-text hide'>This mock layout was made to hone my skills with image manipulation in a way that looks good with a resizing viewport</p>
+            </div>
+            <div id='pro-2'>
+                <img src='Images/kitchen.jpg'/>
+                <p id='txt-2' class='hover-text hide'>It's also one of my first attempts at adding Jquery and Javascript to a page</p>
+            </div>
+            <div id='pro-3'>
+                <img src='images/office.jpg'/>
+                <p id='txt-3' class='hover-text hide'>While this took a little bit of time to piece together, I'm proud of it's result. I'm excited to see my skills develop in this work in the future.</p>
+                <p></p>
+            </div>
+            <div id='submit-form'>
+                <h1>Subscribe to our newsletter</h1>
+                <label>First Name</label>
+                <input class='user-input'/>
+                <label>Last Name</label>
+                <input class='user-input'/>
+                <label>Email</label>
+                <input class='user-input'/>
+                <button>Submit</button>
+            </div>
+        </div>
+
+        <aside id='min-right-panel' class='mobile-grid-5 grid-5'>
+            <a class='fa fa-bars fa-rotate-90'></a>
+        </aside>
+        <aside id='right-panel' class='mobile-grid-30 grid-30 hide'>
+            <div id='nav-items'>
+                <a class='fa fa-arrow-right'></a>
+                <a class='fa fa-home'></a>
+                <a href='projects.html'>Projects</a>
+                <a href='who.html'>Who we are</a>
+                <a href='why.html'>Why choose us?</a>
+            </div>
+            <div id='footer-info'>
+                <p>STUDIO</p>
+                <p>123 King Street</p>
+                <p>Anywhere YA, 1234</p>
+                <p>BLD9495</p>
+            </div>
+            <div id='sharing-icons'>
+                <div class='row-1'>
+                    <a class='fa fa-envelope'></a>
+                    <a class='fa fa-facebook'></a>
+                    <a class='fa fa-twitter'></a>
+                </div>
+                <div class='row-2'>
+                    <a class='fa fa-linkedin'></a>
+                    <a class='fa fa-instagram'></a>
+                    <a class='fa fa-houzz'></a>
+                </div>
+            </div>
+        </aside>
+        <script src='Tools/jquery-1.12.3.min.js'></script>
+        <script src='main.js'></script>
+    </body>
+</html>
+
+<!--
+TO DO: 1) make links go to different parts on the page.
+2) Make a cache in javascript for the slideshow images.
+3) Make the slideshow do a fade rather than what it's doing
+-->
