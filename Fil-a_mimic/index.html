@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='Tools/normalize.css' rel='stylesheet'/>
+        <link href='Tools/unsemantic-grid-responsive.css' rel='stylesheet'/>
+        <link href='Tools/font-awesome-4.6.1/css/font-awesome.min.css' rel='stylesheet'/>
+        <link href='style.css' rel='stylesheet'/>
+    </head>
+    <body>
+        <nav>
+            <div id='mobile-menu' class='hide-on-desktop grid-container'>
+<!--                Logo left, bars right. Drop down menu when clicked.
+                    X when open instead of bars. Append new options and highlight them
+                    when opened-->
+                <h1 class='mobile-grid-90'>LOGO</h1>
+                <i class='fa fa-bars'></i>
+            </div>
+            <div class='open-min-nav hide'>
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a><i class='fa fa-caret-down'></i></li>
+                    <li><a>How We Serve</a><i class='fa fa-caret-down'></i></li>
+                    <li><a>True Inspiration Awards</a></li>
+                    <li><a>Helpful Tools</a><i class='fa fa-caret-down'></i></li>
+                    <li id='last-min-nav'><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div id='desk-menu' class='hide-on-mobile'>
+<!--                Logo top, 6 options here-->
+                <div class='line'></div> <!-- Line on both sides of logo-->
+                <h1>LOGO</h1>
+                <ul>
+                    <li class='grid-20'><a href='sample.html'>Home</a></li>
+                    <li class='grid-20'><a href='sample.html'>About Us</a></li>
+                    <li class='grid-20'><a href='sample.html'>Giving Back</a></li>
+                    <li class='grid-20'><a href='sample.html'>Inspire</a></li>
+                    <li class='grid-20 last'><a href='sample.html'>Helpful Tools</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id='content' class='grid-container'>
+            <div id='how'>
+                <div class='image-wrapper'>
+                    <img src="images/motorcycles.jpg"/>
+                    <p class='img-text'>SAMPLE TEXT <br />Lorem ipsum dolor sit amet <br /> consectetur adipiscing elit <br /> Pellentesque gravida ullamcorper</p>
+                </div>
+                <h1>How do we acheive this goal?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque gravida ullamcorper tincidunt. Sed vulputate sit amet risus ac sodales. </p>
+            </div>
+        <div id='news'>
+            <div id='upcoming'>
+                <div class='image-wrapper'>
+                    <img src='images/duckies.jpg'/>
+                </div>
+                <h1>UPCOMING EVENT</h1>
+                <h2>Some Event on Such a Such Date</h2>
+            </div>
+            <div id='in-news'>
+                <div class='image-wrapper'>
+                    <img src='images/birdie.jpg'/>
+                </div>
+                <h1>IN THE NEWS</h1>
+                <h2>Even More Information Here</h2>
+            </div>
+        </div>
+            <div id='giving-back'>
+                <div class='image-wrapper'>
+                    <img src='images/cityscape.jpg'/>
+                    <div class='mouseover-text hide'>
+                        <p>Detail <br /> Information</p>
+                    </div>
+                    <h1>Option 1</h1>
+                </div>
+                <div class='image-wrapper'>
+                    <img src='images/airplane.jpg'/>
+                    <div class='mouseover-text hide'>
+                        <p>Detail <br /> Information</p>
+                    </div>
+                    <h1>Option 2</h1>
+                </div>
+                <div class='image-wrapper'>
+                    <img src='images/Welding.jpg'/>
+                    <div class='mouseover-text hide'>
+                        <p>Detail <br /> Information</p>
+                    </div>
+                    <h1>Option 3</h1>
+                </div>
+            </div>
+            <div id='awards'>
+            </div>
+            <div id='final-choices'>
+                <ul>
+                    <li><a>Frequently Asked Questions</a></li>
+                    <li><a>Volunteer Oppritunities</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <footer>
+                <p>&copy; Information Listed Here</p>
+                <p><a href='terms.html'>Terms and Conditions</a> | <a href='privacy.html'>Privacy Policy</a></p>
+                <i class='fa fa-facebook fa-2x'></i>
+                <i class='fa fa-twitter fa-2x'></i>
+                <i class='fa fa-instagram fa-2x'></i>
+            </footer>
+        </div>
+        <script src='Tools/font-awesome-4.6.1/css/font-awesome.min.css'></script>
+        <script src='main.js'></script>
+    </body>
+</html>
