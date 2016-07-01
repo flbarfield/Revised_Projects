@@ -148,9 +148,25 @@ img {
 
 /*NEWS*/
 
+.news-wrapper-wrapper {
+	text-align: center;
+}
+
+#upcoming, #in-news {
+	display: inline-block;
+}
 
 #upcoming img, #in-news img {
 	width: 372px;
+	height: 260px;
+}
+
+#upcoming {
+	margin-right: 2em;
+}
+
+#upcoming, #in-news {
+	text-align: left;
 }
 
 #news h1 {
