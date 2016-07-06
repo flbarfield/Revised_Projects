@@ -169,6 +169,7 @@ img {
 	text-align: left;
 }
 
+
 #news h1 {
     color: white;
     position: relative;
@@ -258,6 +259,9 @@ img {
     border-style: solid;
     border-color: rgb(226, 8, 48);
     border-width: thick;
+	width: 270px;
+	display: inline-block;
+	margin-right: 2%;
 }
 
 /***FOOTER***/
