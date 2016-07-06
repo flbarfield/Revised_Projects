@@ -79,114 +79,114 @@ $('.fa-bars').on({
 
 //max nav
 
-$('#max-selections').hide();
-
-$('.fa-home').on({
-    'mouseenter': function () {
-        'use strict';
-        $('.fa-home').css('color', 'rgb(0, 174, 211)');
-    },
-    'mouseleave': function () {
-        'use strict';
-        $('.fa-home').css('color', 'rgb(97, 97, 97)');
-    }
-});
-
-$('.town, .town-selections').on({
-    'mouseenter': function () {
-        'use strict';
-        $('.town').css({
-            'background-color': 'rgb(245, 122, 44)',
-            'color': 'white'
-        });
-        $('.town-selections li').on({
-            'mouseenter': function () {
-                $(this).css('color', 'rgb(245, 122, 44)');
-            },
-            'mouseleave': function () {$(this).css('color', 'rgb(97, 97, 97)'); }
-        });
-        $('#max-selections, .town-selections').fadeIn();
-    },
-    'mouseleave': function () {
-        'use strict';
-        $('.town').css({'color': 'rgb(97, 97, 97)',
-                        'background-color': 'rgb(237, 237, 237)'
-                       });
-        $('#max-selections, .town-selections').fadeOut();
-    }
-});
-
-$('.discover, .discover-selections').on({
-    'mouseenter': function () {
-        'use strict';
-        $('.discover').css({
-            'background-color': 'rgb(93, 186, 93)',
-            'color': 'white'
-        });
-        $('.discover-selections li').on({
-            'mouseenter': function () {
-                $(this).css('color', 'rgb(93, 186, 93)');
-            },
-            'mouseleave': function () {$(this).css('color', 'rgb(97, 97, 97)'); }
-        });
-        $('#max-selections, .discover-selections').fadeIn();
-    },
-    'mouseleave': function () {
-        'use strict';
-        $('.discover').css({'color': 'rgb(97, 97, 97)',
-                        'background-color': 'rgb(237, 237, 237)'
-                       });
-        $('#max-selections, .discover-selections').fadeOut();
-    }
-});
-
-$('.quick, .quick-selections').on({
-    'mouseenter': function () {
-        'use strict';
-        $('.quick').css({
-            'background-color': 'rgb(232, 76, 61)',
-            'color': 'white'
-        });
-        $('.quick-selections li').on({
-            'mouseenter': function () {
-                $(this).css('color', 'rgb(232, 76, 61)');
-            },
-            'mouseleave': function () {$(this).css('color', 'rgb(97, 97, 97)'); }
-        });
-        $('#max-selections, .quick-selections').fadeIn();
-    },
-    'mouseleave': function () {
-        'use strict';
-        $('.quick').css({'color': 'rgb(97, 97, 97)',
-                        'background-color': 'rgb(237, 237, 237)'
-                       });
-        $('#max-selections, .quick-selections').fadeOut();
-    }
-});
-
-$('.live, .live-selections').on({
-    'mouseenter': function () {
-        'use strict';
-        $('.live').css({
-            'background-color': 'rgb(0, 174, 211)',
-            'color': 'white'
-        });
-        $('.live-selections li').on({
-            'mouseenter': function () {
-                $(this).css('color', 'rgb(0, 174, 211');
-            },
-            'mouseleave': function () {$(this).css('color', 'rgb(97, 97, 97)'); }
-        });
-        $('#max-selections, .live-selections').fadeIn();
-    },
-    'mouseleave': function () {
-        'use strict';
-        $('.live').css({'color': 'rgb(97, 97, 97)',
-                        'background-color': 'rgb(237, 237, 237)'
-                       });
-        $('#max-selections, .live-selections').fadeOut();
-    }
-});
+//$('#max-selections').hide();
+//
+//$('.fa-home').on({
+//    'mouseenter': function () {
+//        'use strict';
+//        $('.fa-home').css('color', 'rgb(0, 174, 211)');
+//    },
+//    'mouseleave': function () {
+//        'use strict';
+//        $('.fa-home').css('color', 'rgb(97, 97, 97)');
+//    }
+//});
+//
+//$('.town, .town-selections').on({
+//    'mouseenter': function () {
+//        'use strict';
+//        $('.town').css({
+//            'background-color': 'rgb(245, 122, 44)',
+//            'color': 'white'
+//        });
+//        $('.town-selections li').on({
+//            'mouseenter': function () {
+//                $(this).css('color', 'rgb(245, 122, 44)');
+//            },
+//            'mouseleave': function () {$(this).css('color', 'rgb(97, 97, 97)'); }
+//        });
+//        $('#max-selections, .town-selections').fadeIn();
+//    },
+//    'mouseleave': function () {
+//        'use strict';
+//        $('.town').css({'color': 'rgb(97, 97, 97)',
+//                        'background-color': 'rgb(237, 237, 237)'
+//                       });
+//        $('#max-selections, .town-selections').fadeOut();
+//    }
+//});
+//
+//$('.discover, .discover-selections').on({
+//    'mouseenter': function () {
+//        'use strict';
+//        $('.discover').css({
+//            'background-color': 'rgb(93, 186, 93)',
+//            'color': 'white'
+//        });
+//        $('.discover-selections li').on({
+//            'mouseenter': function () {
+//                $(this).css('color', 'rgb(93, 186, 93)');
+//            },
+//            'mouseleave': function () {$(this).css('color', 'rgb(97, 97, 97)'); }
+//        });
+//        $('#max-selections, .discover-selections').fadeIn();
+//    },
+//    'mouseleave': function () {
+//        'use strict';
+//        $('.discover').css({'color': 'rgb(97, 97, 97)',
+//                        'background-color': 'rgb(237, 237, 237)'
+//                       });
+//        $('#max-selections, .discover-selections').fadeOut();
+//    }
+//});
+//
+//$('.quick, .quick-selections').on({
+//    'mouseenter': function () {
+//        'use strict';
+//        $('.quick').css({
+//            'background-color': 'rgb(232, 76, 61)',
+//            'color': 'white'
+//        });
+//        $('.quick-selections li').on({
+//            'mouseenter': function () {
+//                $(this).css('color', 'rgb(232, 76, 61)');
+//            },
+//            'mouseleave': function () {$(this).css('color', 'rgb(97, 97, 97)'); }
+//        });
+//        $('#max-selections, .quick-selections').fadeIn();
+//    },
+//    'mouseleave': function () {
+//        'use strict';
+//        $('.quick').css({'color': 'rgb(97, 97, 97)',
+//                        'background-color': 'rgb(237, 237, 237)'
+//                       });
+//        $('#max-selections, .quick-selections').fadeOut();
+//    }
+//});
+//
+//$('.live, .live-selections').on({
+//    'mouseenter': function () {
+//        'use strict';
+//        $('.live').css({
+//            'background-color': 'rgb(0, 174, 211)',
+//            'color': 'white'
+//        });
+//        $('.live-selections li').on({
+//            'mouseenter': function () {
+//                $(this).css('color', 'rgb(0, 174, 211');
+//            },
+//            'mouseleave': function () {$(this).css('color', 'rgb(97, 97, 97)'); }
+//        });
+//        $('#max-selections, .live-selections').fadeIn();
+//    },
+//    'mouseleave': function () {
+//        'use strict';
+//        $('.live').css({'color': 'rgb(97, 97, 97)',
+//                        'background-color': 'rgb(237, 237, 237)'
+//                       });
+//        $('#max-selections, .live-selections').fadeOut();
+//    }
+//});
 
 
 //SLIDESHOW BEHAIVIOR
