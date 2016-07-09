@@ -143,7 +143,9 @@ li {
 /*max selections*/
 
 #max-selections {
-    position: relative;
+    position: absolute;
+	z-index: 99;
+	width: 100%;
 }
 
 .fa-home:hover {
@@ -177,6 +179,7 @@ li {
 
 .town:hover .town-selections {
 	display: block;
+	z-index: 99;
 }
 
 .discover:hover {
