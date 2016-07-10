@@ -162,7 +162,7 @@ img {
 }
 
 #upcoming {
-	margin-right: 2em;
+	margin-right: 2em;	
 }
 
 #upcoming, #in-news {
@@ -220,23 +220,29 @@ img {
     border-radius: 400px;
     opacity: .5;
     position: relative;
-    bottom: 19.8em;
-    left: 8.91em;
+    bottom: 17.69em;
+    left: 1.3em;
+	margin-bottom: -12em;
 }
 
 .mouseover-text p {
     color: white;
     font-size: 2em;
-    position: relative;
-    top: 3em;
+    position: absolute;
+    top: 2.2em;
+	left: 2em
 }
 
 #giving-back h1 {
     font-size: 1.5em;
     font-weight: 400;
-	width: 10em;
+	width: 5em;
 	position: relative;
-	bottom: 2em
+	bottom: 2em;
+}
+
+.op-1:hover * {
+	display: inline-block;
 }
 
 
