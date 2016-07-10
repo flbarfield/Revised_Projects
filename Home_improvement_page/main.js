@@ -23,16 +23,16 @@ changeBackground();
 
 //Interactive photos
 
-$('#projects img').on({
-    'mouseenter': function () {
-        'use strict';
-        $(this).siblings('.hide').removeClass('hide');
-    },
-    'mouseleave': function () {
-        'use strict';
-        $(this).siblings().addClass('hide');
-    }
-});
+//$('#projects img').on({
+//    'mouseenter': function () {
+//        'use strict';
+//        $(this).siblings('.hide').removeClass('hide');
+//    },
+//    'mouseleave': function () {
+//        'use strict';
+//        $(this).siblings().addClass('hide');
+//    }
+//});
 
 $('#projects img').on('click', function () {
     'use strict';
