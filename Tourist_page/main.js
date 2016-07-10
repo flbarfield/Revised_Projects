@@ -46,14 +46,16 @@ $('.fa-bars').on({
 			'opacity': '.4'
 		});
 		mobileMenu.slideDown();
-		
-//		if (mobileMenu.hasClass('hide')) {
-//			$('#fade').on('click', function () {
-//				$('#fade').removeAttr('style');
-//			});
-//		}
 	}
 });
+
+if (mobileMenu.is(':visible')) {
+	$('#fade').on('click', function () {
+		'use strict';
+		$('#fade').removeAttr('style');
+		mobileMenu.slideUp();
+	});
+}
 
 //max nav
 
