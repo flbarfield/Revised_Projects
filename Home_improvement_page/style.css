@@ -53,34 +53,47 @@ html {
     margin: 0 auto;
 }
 
+#pro-3 {
+	margin-top: -1em;
+}
+
+#pro-1:hover * {
+	display: block;
+}
+
+#pro-2:hover * {
+	display: block;
+}
+
+#pro-3:hover * {
+	display: block;
+}
+
 .hover-text {
     text-align: center;
     color: white;
     display: block;
     max-width: 683px;
     margin: 0 auto;
-    font-size: 4vmin;
+    font-size: 4vw;
     background-color: rgba(0, 0 ,0 , .6);
 }
 
 #txt-1 {
-    position: relative;
-    bottom: 8.5em;
-    margin-bottom: -3.34em;
+    position: absolute;
+	bottom: 50em;
 }
 
 
 #txt-2 {
-    position: relative;
-    bottom: 9em;
-    margin-bottom: -2.4em;
+    position: absolute;
+	bottom: 35em;
 }
 
 
 #txt-3{
-    position: relative;
-    bottom: 8.5em;
-    margin-bottom: -5em;
+    position: absolute;
+	bottom: 20em;
 }
 
 
@@ -165,6 +178,7 @@ aside p {
     font-size: 1.5em;
     position: absolute;
     right: 0;
+	bottom: 0em;
     width: 2em;
     height: 100%;
     padding-top: 1em;
