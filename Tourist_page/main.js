@@ -41,18 +41,15 @@ $('.fa-twitter').on({
 $('.fa-bars').on({
     'click': function () {
         'use strict';
-		$('#fade').css({
-			'background-image': 'url(../grey.png)',
-			'opacity': '.4'
-		});
+		$('#fade').show();
 		mobileMenu.slideDown();
 	}
 });
 
-if (mobileMenu.is(':visible')) {
+if (!mobileMenu.is(':visible')) {
 	$('#fade').on('click', function () {
 		'use strict';
-		$('#fade').removeAttr('style');
+		$('#fade').hide();
 		mobileMenu.slideUp();
 	});
 }
