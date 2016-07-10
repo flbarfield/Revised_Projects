@@ -10,4 +10,4 @@ Fil-a_mimic - Incomplete. Attempting to recreate the chick-fil-a website. It has
 
 Tourist_page - Complete! Made this to show that I could do a minimalistic site with some animated functionality.
 
-Home_improvement_page - Mostly complete. Unsure if I'll finish this one as it was my first attempt at injecting Javascript into a static page from scratch. If I were to do this again I probably would have approached things differently. Mouse-over text for images flick over while inside of the div. Right nav is misplaced. Needs a cache to improve image load time.  
+Home_improvement_page - Now complete. This was my first attempt at adding javascript to a page so if I were to do it again, I would have approuched a few things differently If I were to do this again. Also would have made a cache for the larger images to improve load time.
