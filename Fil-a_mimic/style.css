@@ -252,19 +252,19 @@ img {
     font-size: 2em;
     position: absolute;
     top: 2.2em;
-	left: 2em
+	left: 2em;
 }
 
-.op-1:hover .mouseover-text {
-	display: inline-block;
+.giv-1:hover .mouseover-text {
+	display: block;
 }
 
-.op-2:hover {
-	
+.giv-2:hover .mouseover-text {
+	display: block;
 }
 
-.op-3:hover {
-	
+.giv-3:hover .mouseover-text {
+	display: block;
 }
 
 
