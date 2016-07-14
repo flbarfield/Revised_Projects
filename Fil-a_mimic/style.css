@@ -39,6 +39,7 @@ img {
 .open-min-nav {
     margin-top: -1em;
     color: rgb(128, 128, 128);
+	width: 100%;
 }
 
 .open-min-nav ul {
