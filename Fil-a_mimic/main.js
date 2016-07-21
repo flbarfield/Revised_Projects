@@ -1,5 +1,5 @@
 var $window = $(window),
-	$animation_elements = $('.animation_element');
+	$animation_elements = $('.animation-element');
 
 function check_if_in_view() {
 	'use strict';

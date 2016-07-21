@@ -15,12 +15,26 @@ img {
     display: none;
 }
 
-.in-view {
-/*
-	transform: translate(0px, 0px);
-	transform: translate3d(0px, 0px ,0px);
-*/
+
+.slide-up  {
+	opacity: 0; 
+	transition: all 400ms ease-out;
+	transform: translate3d(0px, 200, 0px);
+	backface-visibility: hidden;
 }
+
+.slide-up.in-view {
+	opacity: 1;
+	transform: translate3d(0px, 0px, 0px);
+}
+
+/*
+.in-view {
+	animation: example 1300ms;
+	transform: rotate(180deg);
+	animation-duration: 7s;
+}
+*/
 
 /***NAV***/
 
