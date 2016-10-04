@@ -1,3 +1,15 @@
+body {
+	background-image: url('images/cheap_diagonal_fabric.png');
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+}
+
+a, p, h2 {
+	font-family: 'Lora', serif;
+}
+
 h1, i, a {
     color: rgb(226, 8, 48);
     text-decoration: none;
@@ -117,20 +129,12 @@ img {
 
 /*desktop*/
 
-.line {
-    background-color: red;
-    height: .2em;
-    position: relative;
-    top: 2.5em;
-    z-index: -999;
-}
 
 #desk-menu h1 {
+    background-image: url(images/cheap_diagonal_fabric.png);
     text-align: center;
-    background-color: white;
-    display: inline-block;
+	display: block;
     padding: 0 2em;
-    margin-left: 40%;
 }
 
 #desk-menu ul {
@@ -328,8 +332,7 @@ img {
 /***FOOTER***/
 
 footer {
-    background-color: rgb(242, 242, 242);
-    padding-bottom: 5em;
+    padding-bottom: 3em;
     padding-top: .5em;
     text-align: center;
 }
@@ -360,5 +363,3 @@ footer i {
     background-color: rgb(199, 197,	179);
     color: white;
 }
-
-

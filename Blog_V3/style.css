@@ -1,0 +1,219 @@
+body {
+	background-image:url(images/seamless_paper_texture.png);
+	font-family: 'Roboto', sans-serif;
+	color: rgb(60, 59, 59)
+} 
+
+button {
+	border: none !important;
+}
+
+#content {
+	margin-top: 7em;
+}
+
+h1 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+}
+
+.aside-head h2 {
+	font-size: 1.1em;
+	font-style: normal;
+}
+
+/*main content*/
+
+.feat-article {
+	background-color: rgb(120, 117, 129);
+	margin-bottom: 4em;
+	color: rgb(241, 240, 241);
+}
+
+.art-info .headings, .meta {
+	background-color: rgb(241, 241, 241);
+	color: grey;
+
+}
+
+.featured-art h2 {
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+.meta {
+	padding-top: 2em;
+	margin-bottom: 1em;
+	height: 7.3em;
+}
+
+.meta a {
+	color: grey;
+	font-weight: bold
+}
+
+.submission{
+	padding-left: 1em;
+	padding-right: 1em;
+	border-style: solid;
+	border-width: thin;
+	border-color: lightgrey;
+}
+
+.submission img {
+	margin-bottom: 2em;
+	padding-top: 2em;
+}
+
+.submission p {
+	width: 80%;
+	margin: auto;
+	padding-bottom: 2em;
+}
+
+.submission-options {
+	margin-bottom: 2em;
+}
+
+.submission button {
+	margin-left: 10%;
+}
+
+.right-sub-options {
+	float: right;
+	margin-right: 10%
+}
+
+.right-sub-options a {
+	margin-right: 1em;
+	color: rgb(187, 186, 189);
+}
+
+.right-sub-options a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.featured-control button {
+	margin-right: 1em;
+	margin-top: -3em;
+}
+
+.fa-angle-left, .fa-angle-right {
+	font-weight: 500;
+}
+
+/*ASIDE*/
+
+aside {
+	margin-left: 3em !important;
+	margin-right: 2em !important;
+	background-color: rgb(241, 241, 241);
+}
+
+.aside-head {
+	padding-bottom: 2em;
+	border-bottom-style: solid;
+	margin-bottom: 2em;
+	color: grey;
+}
+
+.past-articles {
+	padding: 2em 0 .5em 0;
+/*	background-color: rgb(154, 149, 125);*/
+}
+
+.past-articles a {
+	color: rgb(60, 59, 59);
+}
+
+.past-articles a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.past-art-post {
+	max-width: 15em;
+	margin: 0 auto 2em;
+}
+
+.past-info {
+	background-color: rgb(187, 186, 189);
+	padding: 1em;
+}
+
+.past-info h1 {
+	font-size: 1.5em;
+	margin: 0 0 .5em 0;
+}
+
+.past-info h2 {
+	font-size: 1em;
+	margin: 0;
+}
+
+/*SMALL ASIDE LINKS*/
+
+.small-past {
+	margin-bottom: 1em;
+	color: rgb(60, 59, 59);
+}
+
+.small-past:hover {
+	background-color: darkgrey;
+}
+
+.small-artlinks img {
+	max-height: 65px;
+	max-width: 130px;
+}
+
+.small-past-info {
+	padding: 0;
+}
+
+.small-artlinks h1 {
+	font-size: 1em;
+	margin: 0 0 .5;
+	position: relative;
+	bottom: 1.4em;
+}
+
+.small-artlinks h2 {
+	font-size: 1em;
+	margin: 0;
+	position: relative;
+	bottom: 1.4em;
+	
+}
+
+.about button {
+	margin-left: 1em;
+	margin-bottom: 2em;
+}
+
+.social-links {
+	padding-left: 1em;
+}
+
+.social-links i {
+	font-size: 1.5em;
+	padding: .5em;
+	margin: 0 1em 2em 0em; 
+	color: rgb(187, 186, 189);
+}
+
+.social-links i:hover {
+	color: rgb(121, 113, 125);
+}
+
+@media (max-width: 980px) {
+	aside {
+		display: none;
+	}
+	
+	.meta {
+		margin-top: -1em;
+	}
+	
+}
