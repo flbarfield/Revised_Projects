@@ -1,3 +1,8 @@
+window.onload = function () {
+	'use strict';
+	document.getElementById('loading-page').style.display = 'none';
+};
+
 var backgrounds = [
     'url(Images/Fireplace.jpg)',
     'url(Images/MiscRoom.jpg)',
@@ -8,7 +13,7 @@ var backgrounds = [
 
 //SlideShow
 
-function changeBackground () {
+function changeBackground() {
     'use strict';
     clearTimeout(timeoutVar);
     $('html').css('background-image', function () {
@@ -23,16 +28,16 @@ changeBackground();
 
 //Interactive photos
 
-//$('#projects img').on({
-//    'mouseenter': function () {
-//        'use strict';
-//        $(this).siblings('.hide').removeClass('hide');
-//    },
-//    'mouseleave': function () {
-//        'use strict';
-//        $(this).siblings().addClass('hide');
-//    }
-//});
+$('#projects img').on({
+    'mouseenter': function () {
+        'use strict';
+        $(this).siblings('.hide').removeClass('hide');
+    },
+    'mouseleave': function () {
+        'use strict';
+        $(this).siblings().addClass('hide');
+    }
+});
 
 $('#projects img').on('click', function () {
     'use strict';

@@ -1,3 +1,15 @@
+body {
+	background-image: url(Images/concrete_seamless.png);
+}
+
+h1, h2 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+p, a, label {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .hide {
     display: none;
 }
@@ -48,7 +60,7 @@ nav h1 {
 }
 
 #search-bar input {
-    background-color: rgb(237, 237, 237);
+    background-color: white;
     padding: .5em;
     padding-left: 2em;
     border: none;
@@ -68,7 +80,7 @@ nav h1 {
     text-align: right;
     padding: .1em .5em;
     font-size: 2.5em;
-    background-color: rgb(237, 237, 237);
+    background-color: ghostwhite;
     color: rgb(97, 97, 97);
 }
 
@@ -419,7 +431,7 @@ article p {
 }
 
 #sub-box {
-    background-color: rgb(241, 241, 241);
+    background-color: ghostwhite;
     padding: 1em;
     text-align: center;
 }
@@ -449,7 +461,8 @@ article p {
 /*****Footer*****/
 
 footer {
-    background-color: rgb(241, 241, 241);
+    background-color: ghostwhite;
+	padding-top: .5;
 }
 
 footer p {
