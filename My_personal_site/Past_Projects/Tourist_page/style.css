@@ -1,0 +1,499 @@
+body {
+	background-image: url(Images/concrete_seamless.png);
+}
+
+h1, h2 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+p, a, label {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+#fade {
+	background-color: gray;
+	opacity: .4;
+	z-index: 998;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+/*****NAV*****/
+
+nav {
+    padding: 2em;
+    white-space: nowrap;
+    text-align: right;
+    
+} 
+
+nav h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#social-media i {
+    font-size: 1.5em;
+    padding: .2em .4em;
+    margin: 1em 0 .4em 0;
+    border-radius: .2em;
+    background-color: rgb(197, 197, 197);
+    color: white;
+}
+
+#search-bar {
+    margin: 0 0 1.5em;
+}
+
+#search-bar button {
+    background-color: rgb(0, 174, 211);	
+    padding: .4em 1em;
+    color: white;
+    border: none;
+    box-shadow: none;
+}
+
+#search-bar input {
+    background-color: white;
+    padding: .5em;
+    padding-left: 2em;
+    border: none;
+    font-size: .9em;
+    width: 60%;
+    max-width: 430px;
+}
+
+#search-bar i {
+    position: relative;
+    left: 1.6em;
+    font-size: 1.1em;
+    color: rgb(129, 129, 129);
+}
+
+#more-options {
+    text-align: right;
+    padding: .1em .5em;
+    font-size: 2.5em;
+    background-color: ghostwhite;
+    color: rgb(97, 97, 97);
+}
+
+#more-options a {
+    margin: 0;
+    padding: .5em 1em;
+}
+
+.hide {
+    display: none;
+}
+
+#max-menu {
+    text-align: left;
+    padding-left: .4em;
+}
+#max-menu a, #max-menu i{
+    margin-right: .2em;
+	cursor: pointer;
+}
+
+#max-menu a {
+    font-size: .6em;
+    position: relative;
+    bottom: .3em;
+}
+
+/*****NAV SELECTIONS*****/
+
+/*min selections*/
+
+.fa-bars {
+    padding: .2em .3em;
+}
+
+.fa-bars:hover {
+	color: rgb(245, 122, 44);
+}
+
+#selections {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    height: 100%;
+    overflow: auto;
+}
+
+#selections li, #selections h1 {
+    color: rgb(0, 174, 211);
+}
+
+#selections li:hover {
+	color: rgb(245, 122, 44);
+}
+
+#selections h1, #selections h2 {
+    padding-left: .5em
+}
+
+#selections h1 {
+    font-size: 1.5em;
+    margin-right: 2.5em;
+}
+
+#selections h2 {
+    font-size: 1.3em;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    border-bottom-style: solid;
+    border-color: grey;
+    border-width: thin;
+    padding: .2em 1em;
+}
+
+/*max selections*/
+
+#max-selections {
+    position: absolute;
+	z-index: 999;
+	width: 100%;
+}
+
+.fa-home:hover {
+	color: rgb(0, 174, 211);
+}
+
+.selections {
+	width: 100%;
+    height: 9em;
+    z-index: 999;
+    background-color: rgb(237, 237, 237);
+    opacity: .9;
+} 
+
+.town-selections, .discover-selections, .live-selections, .quick-selections {
+	display: none;
+}
+
+.town-selections li, .discover-selections li, .live-selections li, .quick-selections li {
+	cursor: pointer;
+}
+
+.town:hover {
+	background-color: rgb(245, 122, 44);
+    color: white;
+}
+
+.town-selections li:hover {
+	color: rgb(245, 122, 44);
+}
+
+.town:hover .town-selections {
+	display: block;
+	z-index: 99;
+}
+
+.discover:hover {
+ 	background-color: rgb(93, 186, 93);
+	color: white;
+}
+
+.discover-selections li:hover {
+	color: rgb(93, 186, 93);
+}
+
+.quick:hover {
+	background-color: rgb(232, 76, 61);
+	color: white;
+} 
+
+.quick-selections li:hover {
+	color: rgb(232, 76, 61);
+}
+
+.live:hover {
+	background-color: rgb(0, 174, 211);
+	color: white;
+}
+
+.live-selections li:hover {
+	color: rgb(0, 174, 211);
+}
+
+
+#max-selections ul {
+    margin: 0;
+}
+
+#max-selections li {
+    border-style: none;
+/*    padding: 0em 1em;*/
+}
+
+#max-selections h1 {
+    font-size: 1.5em;
+}
+
+.town-selections h1 {
+    color: rgb(245, 122, 44);
+}
+
+.discover-selections h1 {
+    color: rgb(93, 186, 93);
+}
+
+.quick-selections h1 {
+    color: rgb(232, 76, 61);
+}
+
+.live-selections h1 {
+    color: rgb(0, 174, 211);
+}
+
+
+/*****SLIDESHOW*****/
+
+#slideshow {
+    display: none;
+}
+
+#slideshow img {
+    width: 100%;
+}
+
+/*****Interactive Content*****/
+#read-portion{
+    width: 100%;
+}
+
+#articles, #bills, #weather, #newsletter, #city-directory {
+/*    max-width: 365px;*/
+    max-height: 300px;
+    margin: 0 auto;
+/*    display: inline-block;*/
+}
+
+/*****ARTICLES*****/
+
+#read-portion {
+    padding: 2em;
+    overflow: scroll
+}
+
+#read-portion h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: .5em;
+}
+
+.prev-button {
+    margin-right: .5em;
+    color: rgb(245, 122, 44);
+}
+
+.next-botton {
+    color: rgb(0, 174, 211);
+}
+
+article {
+/*    max-width: 450px;*/
+    text-align: center
+}
+
+article img {
+    width: 100%;
+    height: 220px;
+    margin-top: 2em;
+    max-width: 450px;
+}
+
+article h2 {
+    color: rgb(0, 174, 211);
+    font-weight: 500;
+    
+}
+
+article p {
+    font-weight: 200;
+/*    width: 100%;*/
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+/*****BILL PAY*****/
+
+#bills, #weather, #city-directory, #newsletter {
+    padding: 2em;
+}
+
+#bills h1, #weather h1, #newsletter h1, #city-directory h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+    border-bottom-style: solid;
+    border-width: thin;
+    border-color: rgb(216, 216,	216);
+    color: rgb(49, 57, 68);
+}
+
+/*****ALL ICONS*****/
+
+#bill-icons, #city-icons {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#bill-icons div, #city-icons div {
+    display: inline-block;
+}
+
+
+#bills i, #city-directory i {
+    font-size: 2em;
+    background-color: rgb(0, 174, 211);
+    color: white;
+    padding: .5em;
+    margin: .2em;
+    display: inline-block;
+}
+
+#bill-icons {
+    max-width: 15em;
+}
+
+#city-icons {
+    max-width: 20em;
+}
+
+/*
+#bills p, #city-directory p {
+    display: inline;
+    position: absolute;
+    left: em;
+}
+*/
+
+/*
+#bill-icons i:hover, #city-icons i:hover {
+    background-color: white;
+    color: rgb(245, 122, 44);
+}
+*/
+
+
+#bills .fa-globe {
+    padding: .5em .57em
+}
+
+#bills .fa-spoon {
+    padding: .5em .75em
+}
+
+#bills .fa-child {
+    padding: .5em .6em;
+}
+
+#bills .fa-bus, #bills .fa-music {
+    padding: .5em .56em;
+}
+
+#city-directory .fa-wrench {
+    padding-right: .74em;
+}
+
+#city-directory .fa-shopping-cart {
+    padding-right: .67em;
+}
+
+#city-directory .fa-heart {
+    padding-right: .57em;
+}
+
+/*****Weather*****/
+
+
+/*****NewsLetter*****/
+
+#newsletter {
+    max-width: 950px;
+}
+
+#sub-box {
+    background-color: ghostwhite;
+    padding: 1em;
+    text-align: center;
+}
+
+#newsletter label, #newsletter h1 {
+    white-space: nowrap;
+}
+
+#newsletter label {
+    display: block;
+}
+
+#newsletter input {
+    width: 50%;
+}
+
+#newsletter button {
+    background-color: rgb(0, 174, 211);	
+    padding: .4em 1em;
+    margin: .5em auto;
+    color: white;
+    border: none;
+    box-shadow: none;
+    display: block;
+}
+
+/*****Footer*****/
+
+footer {
+    background-color: ghostwhite;
+	padding-top: .5;
+}
+
+footer p {
+    color: white;
+    background-color: rgb(212, 212, 212);
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+@media (min-width: 1015px) {
+
+    /*    NAV*/
+    
+    nav .logo {
+        float: left;
+        margin-top: .5em;
+        font-size: 2.5em;
+    }
+    
+    
+    #social-media {
+        display: inline-block;
+        position: relative;
+        bottom: 3em;
+    }
+    
+    #search-bar {
+        display: inline-block;
+        position: relative;
+        bottom: 3em;
+    }
+}

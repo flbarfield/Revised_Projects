@@ -1,0 +1,242 @@
+h1, label, a {
+	font-family: 'David Libre', serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+#loading-page {
+	background-color: rgb(255, 224, 0);
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+	opacity: .9;
+}
+
+#loading-content {
+	position: relative;
+	top: 40%;
+}
+
+/***LEFT SIDE ELEMENTS***/
+
+/*BACKGROUND*/
+html {
+    background-image: url('Images/FirePlace.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment:local;
+    height: 100%;
+}
+
+#logo {
+    display: inline-block;
+    position: absolute;
+    top: 1.5em;
+    left: 1.5em;
+    font-size: 4vmin;
+    font-weight: 600;
+}
+
+.main-slides img {
+    display: none;
+}
+
+.main-slides ul {
+    list-style: none;
+}
+
+#more-info {
+    display: block;
+}
+
+/*INTERACTIVE IMAGES*/
+
+#projects {
+    position: absolute;
+    top: 100%;
+    right: 0em;
+    width: 100%;
+    background-color: rgb(255, 224, 0);
+}
+
+#projects img {
+    width: 100%;
+}
+
+.hover-text {
+    text-align: center;
+    color: white;
+    display: block;
+    max-width: 683px;
+    margin: 0 auto;
+    font-size: 4vw;
+    background-color: rgba(0, 0 ,0 , .6);
+}
+
+#txt-1 {
+    position: absolute;
+	bottom: 50em;
+}
+
+
+#txt-2 {
+    position: absolute;
+	bottom: 35em;
+}
+
+
+#txt-3{
+    position: absolute;
+	bottom: 16em;
+}
+
+/*
+#pro-1:hover~=#txt-1{
+	display: block;
+}
+*/
+
+/*****SUBSCRIPTION BOX*******/
+
+#submit-form {
+	background-image: url(Images/footer_lodyas.png);
+    color: rgb(255, 224, 0);
+    text-align: center;
+    padding: 1em;
+}
+
+.user-input {
+    display: block;
+    margin: 0 auto 1em;
+    color: black;
+}
+
+#submit-form button {
+    color: black;
+}
+
+/*****NAV ITEMS*******/
+
+/*OPEN PANEL*/
+
+#right-panel {
+    background-color: rgb(255, 224, 0);
+    padding-top: .5em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    min-width: 186px;
+    max-width: 340px;
+    min-height: 380px;
+}
+
+#nav-items .fa {
+    display: block;
+    font-size: 2em;
+}
+
+#right-panel a {
+    display: block;
+    color: black;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: .3em;
+    text-decoration: none;
+    white-space: nowrap;
+    
+}
+
+#sharing-icons {
+    position: absolute;
+    bottom: 5em;
+}
+
+#sharing-icons a {
+    display: inline-block;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+}
+
+#footer-info {
+    position: absolute;
+    bottom: 0;
+}
+
+aside p {
+    margin: 0;
+}
+
+/*Closed PANEL*/
+
+#min-right-panel {
+    background-color: rgb(255, 224, 0);
+    text-align: center;
+    font-size: 1.5em;
+    position: absolute;
+    right: 0;
+	bottom: 0em;
+    width: 2em;
+    height: 100%;
+    padding-top: 1em;
+    padding-right: 1.2em;
+}
+
+#min-right-panel .fa {
+    padding: .2em;
+}
+
+.hide {
+    display: none;
+}
+
+@media(min-width: 670px) {
+    #projects {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #projects img {
+        width: 33.3%;
+        margin: 0 auto;
+        float: left;
+    }
+    
+    .hover-text {
+        width: 23%;
+        font-size: 1em;
+    }
+    
+    #txt-1 {
+        position: absolute;
+        bottom: 20em;
+        width: 33.3%;
+    }
+    
+    #txt-2 {
+        position: absolute;
+        width: 33.3%;
+        left: 33.4%;
+        bottom: 20em;
+    }
+    
+    #txt-3 {
+        position: absolute;
+        width: 33.3%;
+        left: 66.5%;
+        bottom: 20em;
+    }
+    
+    #submit-form {
+        padding: 1em;
+    }
+}
