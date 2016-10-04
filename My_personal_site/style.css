@@ -1,0 +1,235 @@
+/*******HOME PAGE*****/
+
+.hide {
+	display: none;
+}
+
+/*icon fixes*/
+
+.fa-circle {
+	font-size: .4em;
+	position: relative;
+	bottom: .5em;
+}
+
+.fa-github, .fa-envelope{
+	font-size: 2.5em;
+	color: white;
+	float: left;
+	color: #002BEB;
+}
+
+.fa-github {
+	margin: 0 .5em 1em 0;
+}
+
+.fa-envelope {
+	margin-right: .5em;
+	margin-bottom: 10%
+}
+
+.fa-github:hover, .fa-envelope:hover {
+	color: white;
+}
+
+/*TOP PORTION. NAV AND JUMBOTRON*/
+
+.jumbotron {
+	background-color: #0E0E87;
+	text-align: left;
+	padding-left: 2em;
+}
+
+.jumbotron h1 {
+	color: #FFEB25;
+	font-family: 'Baloo Bhaina', cursive;
+}
+
+.jumbotron h2, .jumbotron h3 {
+	color: #EBB000;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.4em;
+}
+
+.navbar {
+	margin-bottom: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+	color: #EBB000;
+}
+
+.navbar-header .navbar-toggle:hover {
+	background-color: #EBB000;
+}
+
+
+/*MIDDLE PORTION, PORTFOLIO BITS*/
+
+#portfolio-heading {
+	padding: 1em 1em 1em;
+	white-space: nowrap;
+	font-size: 3vw;
+	color: white;
+	font-family: 'Baloo Bhaina', cursive;
+}
+
+.portfolio {
+	display: inline-block;
+	background-image: url(Images/congruent_outline.png);
+	padding-top: .01em;
+	margin-top: -2.2em;
+	padding-bottom: 5em;
+}
+
+.portfolio h1 {
+	font-family: 'Alegreya', serif;
+	font-size: 4em;
+}
+
+.project-wrapper img {
+	padding: 1em;
+}
+
+.project-wrapper img:hover {
+	background-color: #EBB000;
+}
+
+/*
+#fila .mouseover-text, #home .mouseover-text, #tourist .mouseover-text {
+	display: inline-block;
+	visibility: hidden;
+	float: left;
+}
+*/
+
+
+/*
+#fila:hover .mouseover-text {
+	visibility: visible;
+}
+*/
+
+/*BOTTOM PORTION OF PAGE*/
+
+.main-footer {
+	background-color: rgb(238,238, 238);
+	display: inline-block;
+	background-color: #EBB000;
+}
+
+/*My photo*/
+
+
+.ricky {
+	height: 8em;
+	float: left;
+	margin-right: 1em;
+	margin-bottom: .5em;
+}
+
+/*DID FOOTERS BETTER DOWN LOW*/
+
+/****ADJUSTMENTS FOR DETAILED PROJECT INFO PAGES*******/
+
+.project-info-content {
+	background-image: url(Images/congruent_outline.png);
+	color: white;
+	padding-top: 3em;
+	padding-bottom: 4em;
+}
+
+.proj-pic-wrapper img {
+	padding-bottom: 2em;
+	width: 100%;
+}
+
+.mobile-clicky {
+	text-align: center;
+	font-size: 3em;
+	margin-bottom: 2em;
+}
+
+.project-info p {
+	font-size: 1.2em;
+}
+
+.explaination-list {
+ 	padding-left: 1em;
+}
+
+.explaination-list li{
+	font-size: 1.2em;
+	margin-bottom: 1em
+}
+
+.other-projects {
+	padding-bottom: 2em;
+} 
+
+.other-projects ul {
+	list-style-type: none;
+	padding: 0;
+	font-size: 1.2em;
+}
+
+.other-projects a:hover {
+	text-decoration: none;
+}
+
+.project-info-footer {
+	background-color: #EBB000;
+}
+
+.project-info-about {
+	background-color: #3232B7;
+	color: #EBB000;
+	font-family: 'Lato', sans-serif;
+	padding-top: 2em;
+	margin-left: -1.1em;
+	max-width: 31em;
+}
+
+
+.project-info-links {
+	background-color: #EBB000;
+	color: #002BEB;
+	font-family: 'Lato', sans-serif;
+	padding-top: 2em;
+}
+
+.footer-bar-project {
+	height: 50px;
+	background-color: rgb(34,34,34);
+}
+
+@media (max-width: 990px) {
+	
+	.portfolio {
+		padding-bottom: 0;
+	}
+	
+	.portfolio img {
+		margin-bottom: 10em;
+	}
+	
+	.portfolio h1 {
+		font-family: 'Baloo Bhaina', cursive;
+	}
+	
+	#about {
+		border-style: none;
+		padding-bottom: .5em
+	}
+
+	#links p {
+		position: relative;
+		top: 1em;
+	}
+	
+	#fila .mouseover-text {
+	position: relative;
+	bottom: 11.5em;
+}
+}
