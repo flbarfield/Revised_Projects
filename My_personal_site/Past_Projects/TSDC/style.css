@@ -1,0 +1,129 @@
+h1, h2 {
+	font-family: 'Actor', sans-serif;
+}
+
+h1 {
+	color: rgb(177, 202, 101);
+}
+
+p, li {
+	font-family: 'Raleway', sans-serif;
+	color: rgb(154,154,154);
+}
+
+a {
+	color: rgb(177, 202, 101);
+}
+
+
+.nav-pills > li > a:hover {
+	color: black;
+	background-color: rgb(168, 219, 146);;
+}
+
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	background-color: rgb(61, 81, 0);
+}
+
+.featured {
+	background-color: white;
+	padding: 2em;
+}
+
+.feat-p {
+	margin: 2em auto;
+	font-size: 1.5em;
+	max-width: 45em;
+}
+
+.feat-p b {
+	color: rgb(177, 202, 101);
+}
+
+.imp-bold {
+	color: rgb(177, 202, 101);
+}
+
+.subheads {
+	background-color: white;
+	padding: 2em;
+	float: right;
+	padding-left: 15em;
+}
+
+.subheads h2 {
+	font-size: 1.5em
+}
+
+/***Index***/
+.intro-title-img{
+	background: url(images/Index_collage/collage.jpg) no-repeat center center;
+	background-size: cover;
+	color: white;
+	width: 100%;
+	max-width: 2000px;
+	padding: 10% 0;
+	opacity: 
+}
+
+.title-text {
+	color: rgb(177, 202, 101);
+/*	background-color: white;*/
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+	max-width: 8em;
+	margin: auto;
+}
+
+.vid-section {
+	margin-bottom: 2em;
+	text-align: center;
+	background-image: url(images/stardust.png);
+	padding: 0 2em 3em 2em;
+}
+
+.vid-section iframe {
+	margin-top: 1em;
+	height: 40%;
+}
+
+.map {
+	margin: 0 auto 1em;
+	height: 60%;
+}
+
+@media (max-width: 768px){
+	.subheads{
+		padding-left: 0
+	}
+}
+@media (min-width: 768px) {
+	body {
+		background-color: rgb(34,34,34);
+	}
+	
+	nav {
+		width: 15em;
+		height: 100%;
+		min-height: 100%;
+		padding-top: 2em;
+		float: left;
+		position: fixed;
+		bottom: 0;
+	}
+	
+	#updatable-content {
+		margin-left: 15em;
+		background-color: white;
+		margin-top: 0;
+	}
+	
+	.title-text {
+		font-size: 3em;
+/*		background-color: transparent;*/
+	}
+}
