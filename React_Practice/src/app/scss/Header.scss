@@ -1,0 +1,40 @@
+.header-elements {
+  nav {
+    background-color: $prime-color;
+    margin: 0;
+    ul {
+      display: inline-flex;
+    }
+    link .active {
+      color: $h1-col;
+    }
+  }
+  .jumbotron {
+    background-color: $sec-color;
+    color: $h1-col;
+    margin: 1.5em 0 -3em;
+    text-align: left;
+    padding-left: 2em;
+  }
+  .head-img {
+    // background-image: url(/app/images/largeband.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 15em;
+    color: $h1-col;
+    text-shadow: -5px -1px 11px $sec-color;
+    font-size: 2em;
+    h2 {
+      position: relative;
+      top: 10em;
+      left: .5em;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .jumbotron h1 {
+    font-size: 4em;
+  }
+}

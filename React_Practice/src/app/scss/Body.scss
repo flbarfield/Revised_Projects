@@ -1,0 +1,72 @@
+.music-choices {
+  background-color: $prime-color;
+  margin-bottom: 5em;
+
+  .artist-panel {
+    background-color: $prime-color;
+  }
+
+  .row {
+    margin-top: 4em;
+  }
+
+  .inner-artist-wrap {
+    background-color: $sec-color;
+    padding-top: 2em;
+  }
+
+  .mu-img-wrap {
+    width: 100%;
+    background-color: $sec-color;
+  }
+
+  .mu-img-wrap:hover  img{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  img{
+    width: 100%;
+    transition: .5s ease-in;
+  }
+
+  .mu-info {
+
+    h3 {
+      color: $a-color;
+      margin: .5 0 0;
+      font-size: 1em;
+    }
+    p {
+      color: $h1-col;
+      font-size: 1.5em;
+    }
+
+    .ctrl-btn {
+      color: $a-color;
+      margin-bottom: 2em;
+      padding-bottom: 1em;
+      margin-left: -1em;
+      margin-right: -1em;
+      margin-top: 1em;
+
+      i {
+        font-size: 1.5em;
+        transition: .3s;
+      }
+
+      i:hover {
+        color: $h1-col;
+        cursor: pointer;
+      }
+
+      span {
+        text-align: center;
+      }
+
+      .right-btn-wrap {
+        text-align: right;
+      }
+    }
+  }
+}

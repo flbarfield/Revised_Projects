@@ -1,0 +1,47 @@
+.foot-wrap{
+  .default-bar {
+    height: 6em;
+    max-width: 50em;
+    background-color: $sec-color;
+    color: $a-color;
+
+    i, span {
+      font-size: 1.5em;
+      transition: .5s;
+    }
+
+    i:hover{
+      color: $h1-col;
+      cursor: pointer;
+      }
+
+    .progress-bar{
+      margin: 0 auto;
+      height: .5em;
+      width: 100%;
+      background-color: $a-color;
+      .filling-bar {
+        position: absolute;
+        max-width: 56em;
+        width: 10%;
+        height: .5em;
+        background-color: $h1-col;
+      }
+    }
+
+    .foot-mu-btns {
+      text-align: center;
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    .foot-mu-vol {
+      float: right;
+      cursor: pointer;
+    }
+
+    .foot-mu-vol:hover {
+      color:$h1-col;
+    }
+  }
+}
