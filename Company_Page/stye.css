@@ -1,0 +1,383 @@
+h1 {
+	font-family: 'Cabin', sans-serif;
+	color: rgb(111,111,111);
+}
+
+h2, p {
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(153,153,153);
+	font-size: 1em;
+}
+
+a:hover {
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+button {
+	background-color: white;
+	border-width: thin;
+	border-radius: 3px;
+	border: none;
+}
+
+#main-content {
+	transition: margin-right 0.5s;
+}
+
+/*OPEN NAV RULES*/
+
+#hidden-nav {
+	display: inline-block;
+	position: fixed;
+	right: 0;
+	height: 100%;
+	z-index: 99;
+	border-left-style: solid;
+	border-left-width: thin;
+	border-left-color: lightgray;
+	width: 0;
+	background-color: white;
+	transition: 0.5s;
+}
+
+.menu-options {
+	padding: 1em;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	font-size: 1.2em;
+}
+
+nav li {
+	padding: .5em;
+}
+
+nav .hoz-seperator {
+	height: .1em;
+	padding: 0;
+	background-color: lightgrey;
+}
+
+nav a {
+	color: black;
+}
+
+nav a:hover {
+	color: lightgreen;
+	transition: 0.2s;
+}
+
+nav button {
+	display: block;
+	width: 100%;
+	margin-bottom: 1em;
+	background-color: lightgreen;
+	border-style: solid;
+	border-width: thin;
+	border-color: lightgreen;
+	color: white;
+	padding: .5em 0;
+}
+
+nav .second-button {
+	background-color: transparent;
+	color: black;
+	border-color: lightgrey;
+}
+
+nav .second-button:hover{
+	background-color: lightgrey;
+	transition: 0.4s;
+}
+
+
+.nav-close-btn {
+	font-size: 2em;
+	margin-bottom: .5em;
+	padding: .2em .4em;
+}
+
+.nav-close-btn:hover {
+	color: lightgreen;
+	transition: 0.2s;
+}
+
+/*JUMBOTRON*/
+
+.jumbotron {
+	background-image: url('Images/planes.jpg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.jumbotron p {
+	color: white;
+}
+
+.jumbotron i {
+	float: right;
+	font-size: 2em;
+	padding: .5em;
+	color: white;
+	text-align: center;
+}
+
+.jumb-right {
+	text-align: center;
+}
+
+.jumb-right button {
+	background-color: lightgreen;
+	border-color: lightgreen;
+	border-width: 3px;
+	border-style: solid;
+	margin-right: 1em;
+	font-size: 1em;
+	padding: .5em 2em;
+	margin-top: 3em;
+}
+
+#jumb-sec-button {
+	margin-right: 0;
+	background-color: transparent;
+	border-color: white;
+}
+
+.jumb-right button:hover, .jumb-right button:focus, nav button:hover, nav button:focus, #fin button:hover, #fin button:focus {
+	background-color: green;
+	color: white;
+	transition: 0.4s;
+}
+
+.fa-navicon:hover, .fa-navicon:focus {
+	color: lightgreen;
+	transition: 0.2s;
+}
+
+#jumb-sec-button:hover, #jumb-sec-button:focus, nav .second-button:hover, nav .second-button:focus, #about button:focus, #about button:hover {
+	background-color: lightgrey;
+	transition: 0.4s;
+}
+/*ABOUT*/
+
+#ab-txt-wrap {
+	max-width: 34em;
+	margin: 0 auto;
+}
+
+#ab-button-wrap {
+	text-align: center;
+}
+
+#ab-button-wrap button {
+	border-style: solid;
+	border-color: grey;
+	border-width: thin;
+	padding: .5em 2em;
+}
+
+#ab-right-wrap {
+	text-align: center;
+	margin-top: 1em;
+}
+
+#about-right img {
+	width: 5em;
+	height: 5em;
+	border-radius: 10em;
+}
+
+/*PRODUCTS*/
+
+#product-section {
+	background-color: rgb(247,247,247);
+	margin-top: 3em;
+}
+
+#product-header {
+	text-align: center;
+	margin-bottom: 2em;
+	margin-top: 3em;
+}
+
+#product-info {
+	text-align: center;
+}
+
+
+#product-info section {
+	background-color: white;
+	margin-bottom: 1em;
+	border-radius: .2em;
+	padding: 3em 1em;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-width: 1em;
+	border-color: rgb(247,247,247);
+}
+
+#product-info i {
+	font-size: 2em;
+	color: green;
+	padding: .8em;
+	border-style: solid;
+	border-width: thin;
+	border-color: lightgray;	
+}
+
+#product-info p {
+	max-width: 30em;
+	margin: 0 auto;
+}
+
+#product-info button {
+	background-color: transparent;
+	padding: 1em 3em;
+	border-style: solid;
+	border-color: darkgrey;
+	border-width: thin;
+	margin-bottom: 2em
+}
+
+#product-info button:hover {
+	background-color: white;
+	transition: 0.4s;
+}
+
+/*FEATURED*/
+
+#feat-products {
+	max-width: 60em;
+	margin: 0 auto;
+}
+
+#feat-products section{
+	border-bottom-style: solid;
+	border-bottom-color: rgb(233,233,233);
+	border-width: thin;
+	padding: 1em 1em 2em;
+}
+
+.feat-img-wrap {
+	text-align: center;
+}
+
+#feat-products img {
+	width: 100%;
+	margin-top: 1.5em;
+/*	padding: 2em;*/
+	max-width: 22em;
+	border-radius: .5em;
+}
+
+.feat-text h1 {
+	font-size: 1.5em;
+}
+
+#feat-products p {
+	max-height: 10em;
+	overflow: scroll;
+}
+
+#last-feat-section {
+	border-style: none !important;
+}
+
+/*LAST SECTION*/
+
+#fin {
+	text-align: center;
+	background-color: rgb(247,247,247);
+	padding: 3em 3em 5em;
+}
+
+#fin p {
+	max-width:55em;
+	margin: 0 auto;
+}
+
+
+#fin button {
+	background-color: lightgreen;
+	color: white;
+	padding: .5em 3em;
+	margin-top: 1em;
+}
+
+/*FOOTER*/
+
+footer {
+	background-image: url(Images/planes.jpg);
+	background-position: bottom;
+	height: 10em;
+	padding: 3em;
+}
+
+footer a {
+	color: rgb(81, 66, 142);
+	font-size: 1em;
+}
+
+footer ul {
+	padding: 0;
+}
+
+.seperator {
+	height: 1em;
+	width: .1em;
+	background-color: purple;
+}
+
+#foot-left {
+	text-align: center;
+}
+
+#foot-right {
+	text-align: center;
+}
+
+.hoz-links li {
+	display: inline-block;
+	margin-right: .5em;
+}
+
+
+.hoz-icons li{
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 1.5em;
+}
+
+footer i:hover {
+	color: white;
+	transition: 0.2s;
+}
+
+footer a:hover {
+	color: white;
+	transition: 0.2s;
+}
+
+@media only screen and (min-width : 992px) {
+	
+	.jumbotron {
+		background-position: 50% 40%;
+	}
+	
+	#ab-right-wrap img {
+		width: 7em;
+		height: 7em;
+	}
+	
+	.feat-text h1 {
+		font-size: 3em;
+	}
+	
+	.feat-img-wrap {
+		margin-top: .5em
+	}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "react_practice",
+  "main": "index.js",
+  "homepage": "https://github.com/flbarfield/Early-WebBuilds",
+  "authors": [
+    "Fredrick Barfield <flbarfield@yahoo.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}

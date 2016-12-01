@@ -1,0 +1,187 @@
+p, li {
+  font-family: "Raleway", sans-serif; }
+
+h1, h2 {
+  font-family: "Black Ops One", cursive; }
+
+body {
+  background-color: #262728; }
+
+.header-elements nav {
+  background-color: #262728;
+  margin: 0; }
+  .header-elements nav ul {
+    display: inline-flex; }
+  .header-elements nav link .active {
+    color: #d6d6d6; }
+.header-elements .jumbotron {
+  background-color: #1d1e1f;
+  color: #d6d6d6;
+  margin: 1.5em 0 -3em;
+  text-align: left;
+  padding-left: 2em; }
+.header-elements .head-img {
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 15em;
+  color: #d6d6d6;
+  text-shadow: -5px -1px 11px #1d1e1f;
+  font-size: 2em; }
+  .header-elements .head-img h2 {
+    position: relative;
+    top: 10em;
+    left: .5em; }
+
+@media (min-width: 992px) {
+  .jumbotron h1 {
+    font-size: 4em; } }
+.music-choices {
+  background-color: #262728;
+  margin-bottom: 5em; }
+  .music-choices .artist-panel {
+    background-color: #262728; }
+  .music-choices .row {
+    margin-top: 4em; }
+  .music-choices .inner-artist-wrap {
+    background-color: #1d1e1f;
+    padding-top: 2em; }
+  .music-choices .mu-img-wrap {
+    width: 100%;
+    background-color: #1d1e1f; }
+  .music-choices .mu-img-wrap:hover img {
+    transform: scale(1.1);
+    cursor: pointer; }
+  .music-choices img {
+    width: 100%;
+    transition: .5s ease-in; }
+  .music-choices .mu-info h3 {
+    color: #98999a;
+    margin: .5 0 0;
+    font-size: 1em; }
+  .music-choices .mu-info p {
+    color: #d6d6d6;
+    font-size: 1.5em; }
+  .music-choices .mu-info .ctrl-btn {
+    color: #98999a;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-top: 1em; }
+    .music-choices .mu-info .ctrl-btn i {
+      font-size: 1.5em;
+      transition: .3s; }
+    .music-choices .mu-info .ctrl-btn i:hover {
+      color: #d6d6d6;
+      cursor: pointer; }
+    .music-choices .mu-info .ctrl-btn span {
+      text-align: center; }
+    .music-choices .mu-info .ctrl-btn .right-btn-wrap {
+      text-align: right; }
+
+.song {
+  margin-bottom: 4em;
+  height: 25em;
+  text-align: center;
+  background-color: #1d1e1f; }
+  .song .song-info {
+    position: relative;
+    top: 2em; }
+    .song .song-info h1 {
+      font-size: .7em;
+      margin: 0;
+      color: #98999a; }
+    .song .song-info h2 {
+      font-size: 1em;
+      margin: 0;
+      color: #d6d6d6; }
+  .song .so_img {
+    height: 50%;
+    max-width: 100%;
+    position: relative;
+    top: 1.5em; }
+  .song .audio-controls {
+    width: 100%;
+    position: relative;
+    top: 2.5em;
+    max-width: 19.2em; }
+  .song .song-bot {
+    text-align: center;
+    color: #98999a;
+    font-size: 1em;
+    margin-top: 4.4em;
+    white-space: nowrap; }
+    .song .song-bot i {
+      margin-right: .5em;
+      transition: .3s; }
+    .song .song-bot i:hover {
+      color: #d6d6d6;
+      cursor: pointer; }
+    .song .song-bot span {
+      margin-right: 1.5em; }
+
+@media (min-width: 992px) {
+  .song {
+    margin-bottom: 4em;
+    height: 15em; }
+    .song .so-content-wrap {
+      position: relative;
+      left: 19%; }
+    .song .so_img {
+      height: 80%; }
+    .song .song-info {
+      text-align: left; }
+      .song .song-info h1 {
+        font-size: 1em; }
+    .song .so-playbar {
+      text-align: left; }
+    .song .audio-controls {
+      width: 100%;
+      min-width: 405px;
+      max-width: 405px;
+      max-height: 6.5em;
+      position: relative;
+      top: 4.5em;
+      right: 1em; }
+    .song .song-bot {
+      font-size: 1.3em;
+      text-align: left;
+      top: 1.5em;
+      right: 1.5em;
+      white-space: nowrap; }
+      .song .song-bot span {
+        margin-right: 3em; } }
+.foot-wrap .default-bar {
+  height: 6em;
+  max-width: 50em;
+  background-color: #1d1e1f;
+  color: #98999a; }
+  .foot-wrap .default-bar i, .foot-wrap .default-bar span {
+    font-size: 1.5em;
+    transition: .5s; }
+  .foot-wrap .default-bar i:hover {
+    color: #d6d6d6;
+    cursor: pointer; }
+  .foot-wrap .default-bar .progress-bar {
+    margin: 0 auto;
+    height: .5em;
+    width: 100%;
+    background-color: #98999a; }
+    .foot-wrap .default-bar .progress-bar .filling-bar {
+      position: absolute;
+      max-width: 56em;
+      width: 10%;
+      height: .5em;
+      background-color: #d6d6d6; }
+  .foot-wrap .default-bar .foot-mu-btns {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em; }
+  .foot-wrap .default-bar .foot-mu-vol {
+    float: right;
+    cursor: pointer; }
+  .foot-wrap .default-bar .foot-mu-vol:hover {
+    color: #d6d6d6; }
+
+/*# sourceMappingURL=style.css.map */

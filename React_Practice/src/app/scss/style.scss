@@ -1,0 +1,23 @@
+$prime-color: rgb(38, 39,	40);
+$sec-color: rgb(29,	30, 31);
+$a-color: rgb(152, 153, 154);
+$h1-col: rgb(214, 214, 214);
+$ops-font: 'Black Ops One', cursive;
+$rail-font: "Raleway", sans-serif;
+
+p, li {
+  font-family: $rail-font;
+}
+
+h1, h2 {
+  font-family: $ops-font;
+}
+
+body {
+  background-color: $prime-color;
+}
+
+@import "Header";
+@import "Body";
+@import "SoList";
+@import "FootMusicBar";
